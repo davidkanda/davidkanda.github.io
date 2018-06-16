@@ -1,0 +1,30 @@
+body {
+	background-color: #67cef5;
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+img {
+	height: 300px;
+	width: auto;
+}
+
+.img {
+	display: flex;
+	justify-content: center;
+	margin-top: 200px;
+}
+
+.text {
+	text-align: center;
+	font-weight: 800;
+	font-size: 25px;
+	animation-delay: 1.6s;
+}
+
+.text-up {
+	text-transform: uppercase;
+}
+
+
+
