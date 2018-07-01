@@ -1,0 +1,141 @@
+
+/* Big tablets to 1200px (widths smaller than the 1140px row)*/
+@media only screen and (max-width:1200px) {
+    .slogan-text-box {
+        position: absolute;
+        font-size: 80%;
+        width: 1140px;
+        top: 44%;
+        left: 5%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .navbar {
+        padding-top: 60px;
+        display: flex;
+        justify-content: center;
+        margin-left: 350px;
+    }
+
+    .navbar li {
+        padding-left: 20px;
+        display: inline-block;
+    }
+}
+
+
+/* Small tablet to big tablet: from 768 to 1023px*/
+@media only screen and (max-width:1023px) {
+    
+    .btn {
+        font-size: 20px;
+    }
+
+    .navbar {
+        padding-top: 52px;
+        display: flex;
+        justify-content: center;
+        margin-left: 20px;
+    }
+
+    .navbar li {
+        padding-left: 40px;
+        margin-left: 0px;
+    }
+
+    .slogan-text-box {
+        position: absolute;
+        font-size: 65%;
+        width: 1140px;
+        top: 44%;
+        left: 3%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+}
+
+/* Small phones to small tablets: from 481 to 767px*/
+@media only screen and (max-width:767px) {
+    
+    .navbar { display: none; }
+    .mobile-nav-icon {
+        display: inline-block;
+        margin-right: 7%;
+        font-size: 85%;
+    }
+    
+    .navbar li {
+        display: block;
+    }
+    
+    .navbar li a:link,
+    .navbar li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 75%;
+    }
+
+    .slogan-text-box {
+        position: absolute;
+        font-size: 53%;
+        width: 1140px;
+        top: 51%;
+        left: 7%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+}
+
+/* Small phones: from 0 to 480px*/
+@media only screen and (max-width:480px) {
+   
+   	.navbar { display: none; }
+    .mobile-nav-icon {
+        display: inline-block;
+        margin-right: 7%;
+    }
+    
+    .navbar li {
+        display: block;
+    }
+    
+    .navbar li a:link,
+    .navbar li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+
+    .slogan-text-box {
+        position: absolute;
+        font-size: 45%;
+        width: 1140px;
+        top: 40%;
+        left: 5%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+ 	.navbar li a:link,
+	.navbar li a:visited {
+	    padding: 8px 0;
+	    color: #ffffff;
+	    text-decoration: none;
+	    text-transform: uppercase;
+	    font-size: 70%;
+	    border-bottom: 2px solid transparent;
+	    transition: border-bottom 0.3s;
+}
+
+	.logo {
+		display: inline-block;
+	}
+
+}
